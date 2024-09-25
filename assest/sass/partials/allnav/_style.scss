@@ -1,0 +1,125 @@
+.most {
+    display: flex;
+    @include flex(center,space-evenly);
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 8rem;
+
+    &__product {
+        display: flex;
+        width: 40%;
+        height: 200px;
+        @include flex(start, right);
+        margin-top:4rem;
+
+        &__one {
+            margin-top: 2rem;
+
+            h6 {
+                margin-top: -1rem;
+            }
+
+            p {
+                display: inline-block;
+                margin-top: 0;
+            }
+
+            span {
+
+                border: 1px solid;
+                padding: 0.25rem;
+                border-radius: 50%;
+
+            }
+        }
+
+        &__two {
+            margin-left: 4rem;
+
+            &__image {
+                height: 150px;
+                width: 190px;
+                margin-right: 4rem;
+            }
+        }
+    }
+}
+
+.hvr-fade{
+    color: white !important;;
+    background-color: rgb(240, 179, 240) !important;
+}
+
+// responsive
+@media screen and (max-width:500px) {
+.pro{
+    margin-left:-1rem;
+
+}
+.pro__two{
+margin-left:-6rem;
+}
+.pro__h{
+    width:40%;
+    font-size:1.5rem;
+    margin-left:4rem;
+}
+.pro__h__one{
+    margin-left:-4rem;
+    width:60%;
+    font-size:1.5rem;
+}
+.most {
+   
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin-top: 5rem;
+
+    &__product {
+        display: flex;
+        width:90%;
+        height: 200px;
+        @include flex(start, right);
+        margin-top:4rem;
+
+        &__one {
+            margin-top: 2rem;
+            width:40%;
+
+            h6 {
+                margin-top: -1rem;
+            }
+
+            p {
+                display: inline-block;
+                margin-top: 0;
+            }
+
+            span {
+
+                border: 1px solid;
+                padding: 0.25rem;
+                border-radius: 50%;
+
+            }
+        }
+
+
+        &__two {
+            margin-left:-1rem;
+
+            &__image {
+                height: 100px;
+                width: 150px;
+                margin-right:0rem;
+                margin-left:2rem;
+                margin-top:3rem;
+                
+            }
+        }
+    }
+}
+.foot{
+    display:none;
+}
+}
