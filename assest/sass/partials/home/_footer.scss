@@ -1,0 +1,50 @@
+.footer{
+    background-color:$head;
+    margin-top:5rem;
+    height:180px;
+    padding:1rem 5rem;
+    display: flex;
+   @include flex(start,space-evenly); 
+    &__style__li{
+      border-right: 1px solid;
+        list-style-type:none;
+    width:13rem;
+list-style-position:inside;
+margin-left:-1.75rem;}
+    }
+
+
+     // responsive
+ @media screen and (max-width:500px) {
+  .footer{
+  margin-top:5rem;
+    height:140px;
+    padding:2rem 2rem;
+    display: flex;
+    @include flex(start,space-between); 
+   
+    &__style__li{
+   display: flex;
+   flex-direction: column;
+    width:13rem;
+    border: none;
+    margin-left:-1.5rem;
+    margin-top:-6px;
+}
+    }
+ 
+  
+
+ .font{
+  font-size:0.75rem !important;
+  margin-left:1rem;
+ }
+
+ .font__one{
+  font-size:0.75rem !important;
+ }
+ 
+ .distance{
+margin-right:-4.5rem;
+
+ }}
