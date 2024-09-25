@@ -1,0 +1,60 @@
+$back:#e5e2e2;
+$btn:#a564e2;
+$head:rgba(55, 54, 54,1);
+$write:black;
+
+
+
+// mixin
+
+    @mixin flex($align,$justify)     
+    {
+    display:flex;
+    align-items:$align;
+    justify-content:$justify;
+}
+
+// moshtrakha
+.same{
+    color:$write;
+    text-shadow: 5px 5px 5px purple;
+    text-align: center !important;
+}
+.all{
+    box-shadow:-10px -10px 3px 1px rgb(136, 135, 135);
+
+}
+.cart{
+    box-shadow:-10px -10px 3px 1px rgb(249, 171, 228);
+}
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.need{
+    color:$write;
+    text-align: center !important;
+    text-shadow: 5px 5px 5px rgb(101, 100, 101);
+}
+
+.active{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ body{
+    margin-left: 0px;
+    margin-right:0px;
+ }
+
+
+
+
+ // responsive
+ @media screen and (max-width:500px) {
+ * {
+    box-sizing: border-box;}
+    body{
+        margin-left: 0px;
+        margin-right:0px;
+     }}
