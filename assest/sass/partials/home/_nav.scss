@@ -1,0 +1,31 @@
+.box__intro{
+    position: relative;
+    display: none;
+    
+    &__chavron{
+        width:10rem;
+        height:200px;
+        background:radial-gradient(rgb(216, 215, 215) 40%,rgb(222, 151, 222));
+        left:1%;
+        font-size:1.25rem;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: start;
+        padding-left:30px;
+
+  
+}}
+
+
+.we:hover .box__intro{
+        
+        display: block;
+
+    }
+a{
+    color:$write;
+}
+
+
