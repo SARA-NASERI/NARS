@@ -195,6 +195,9 @@ body {
     grid-template-rows: repeat(4, 1fr);
     margin: 2rem auto;
   }
+  .item h2 {
+    font-size: 3rem !important;
+  }
   .item__one {
     margin: 5px;
     display: flex;
@@ -202,16 +205,16 @@ body {
     align-items: center;
   }
   .item__one__img {
-    width: 400px;
-    height: 150px;
+    width: 500px;
+    height: 180px;
   }
   .item__one__image {
-    height: 150px;
-    width: 250px;
+    height: 180px;
+    width: 270px;
   }
   .item__one__imag {
-    height: 350px;
-    width: 200px;
+    height: 400px;
+    width: 250px;
   }
   .item__two {
     font-size: 4rem !important;
@@ -233,7 +236,7 @@ body {
     grid-row-end: 4;
     overflow: hidden;
     grid-column: 1/2;
-    height: 300px;
+    height: 400px;
     width: 250px;
   }
   .item__five {
@@ -254,17 +257,18 @@ body {
     width: 300px;
   }
   .item__eight {
-    height: 150px;
-    width: 250px;
+    height: 180px;
+    width: 270px;
   }
   .item__nine {
-    height: 150px;
-    width: 250px;
+    height: 180px;
+    width: 270px;
   }
   .item__ten {
     grid-column-start: 2;
     grid-column-end: 4;
-    width: 400px;
-    height: 150px;
+    width: 500px;
+    height: 180px;
+    margin-left: 2rem;
   }
 }
