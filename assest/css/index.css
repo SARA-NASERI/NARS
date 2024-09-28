@@ -146,6 +146,7 @@ body {
   color: rgb(86, 83, 83);
   height: 200px;
   width: 300px;
+  margin-left: -1.75rem;
 }
 .item__four {
   grid-row-start: 2;
@@ -230,6 +231,7 @@ body {
     color: rgb(86, 83, 83);
     height: 200px;
     width: 300px;
+    margin-left: -2rem;
   }
   .item__four {
     grid-row-start: 2;
