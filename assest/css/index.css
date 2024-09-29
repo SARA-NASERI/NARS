@@ -115,18 +115,22 @@ body {
   margin: 2rem auto;
 }
 .item__one {
-  margin: 10px;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px gray;
 }
 .item__one__img {
-  width: 550px;
+  width: 600px;
   height: 180px;
+  border-radius: 15px;
 }
 .item__one__image {
   height: 180px;
-  width: 250px;
+  width: 280px;
+  border-radius: 15px;
 }
 .item__one__imag {
   height: 400px;
@@ -139,6 +143,7 @@ body {
   width: 600px;
   background: linear-gradient(rgb(254, 255, 251), rgb(231, 233, 225), rgb(232, 255, 179));
   height: 200px;
+  margin-left: 3rem;
 }
 .item__three {
   font-size: 2.5rem;
@@ -146,7 +151,7 @@ body {
   color: rgb(86, 83, 83);
   height: 200px;
   width: 300px;
-  margin-left: -1.75rem;
+  margin-left: -3rem;
 }
 .item__four {
   grid-row-start: 2;
@@ -155,6 +160,7 @@ body {
   grid-column: 1/2;
   height: 400px;
   width: 300px;
+  margin-left: 3rem;
 }
 .item__five {
   background: linear-gradient(rgb(139, 139, 139), rgb(181, 230, 251), rgb(84, 83, 83));
@@ -162,30 +168,38 @@ body {
   color: white;
   height: 200px;
   width: 300px;
+  margin-left: 1rem;
 }
 .item__six {
   font-size: 2.5rem;
   background: linear-gradient(rgb(2, 105, 40), rgb(217, 224, 169), rgb(3, 85, 31));
   height: 200px;
   width: 300px;
+  margin-left: 1rem;
 }
 .item__seven {
-  height: 200px;
-  width: 300px;
+  height: 180px;
+  width: 280px;
+  margin-left: -2rem;
+  margin-top: 1rem;
 }
 .item__eight {
-  height: 200px;
-  width: 300px;
+  height: 180px;
+  width: 280px;
+  margin-left: -2rem;
+  margin-top: 1rem;
 }
 .item__nine {
-  height: 200px;
-  width: 300px;
+  height: 180px;
+  width: 280px;
+  margin-left: 3rem;
 }
 .item__ten {
-  height: 200px;
+  height: 180px;
   grid-column-start: 2;
   grid-column-end: 4;
   width: 600px;
+  margin-left: 2rem;
 }
 
 @media screen and (max-width: 500px) {
